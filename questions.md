@@ -16,8 +16,18 @@
 
 > Write your answer here
 
-5. What is an API? What does API stand for?
+5. What are the parts of the request-response cycle?
 
 > Write your answer here
 
-6. 
+6. What is AJAX?
+
+> Write your answer here
+
+7. What's the difference between asynchronous and synchronous in the context of JavaScript?
+
+> Write your answer here
+
+8. What are the four verbs in the RESTful paradigm? What does each of them do?
+
+> Write your answer here

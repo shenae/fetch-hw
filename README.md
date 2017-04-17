@@ -8,6 +8,7 @@ Welcome to Unit 2!! Tonight's homework is pretty simple and has two parts: some 
 
 - Read the [first two sections of Chapter 12 of Eloquent Javascript](http://eloquentjavascript.net/12_browser.html) -- "Networks and the Internet" and "The Web".
 - Read the first two sections of [Chapter 17 of Eloquent Javascript](http://eloquentjavascript.net/17_http.html) -- "The Protocol" and "Browsers and HTTP". (We'll talk about the rest of the sections in the chapter -- "XMLHttpRequest" and beyond -- later.)
+- BONUS: Watch ["What the heck is the event loop anyway?"](https://www.youtube.com/watch?v=8aGhZQkoFbQ) (It's long, about 25 minutes, but super good.)
 - Answer the questions in [the questions markdown file](./questions.md) based on the reading and lectures.
 
 ### Part Two
