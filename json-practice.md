@@ -1,12 +1,14 @@
 # JSON Practice!!!
 
+![clap](./assets/clap.gif)
+
 Tonight you'll be using Postman (which you should have downloaded in class 😉) to solve the following problems, using the [Game of Thrones](https://anapioficeandfire.com/) API.
 
 ## Example question & answer
 
 0. When was Jon Snow born?
 
-- URL: `http://anapioficeandfire.com/api/characters/583` (you'll past this URL into Postman)
+- URL: `http://anapioficeandfire.com/api/characters/583` (you'll paste this URL into Postman)
 
 - Response: (You don't have to include this part, I've just copy-pasted the entire response from Postman so you can see what's going on.)
 
