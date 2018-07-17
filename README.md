@@ -94,10 +94,10 @@ URL: `http://www.anapioficeandfire.com/api/houses/17`
 
 URL: `http://www.anapioficeandfire.com/api/characters/901`
 
-7. What's the name of the founder of House Stark? (You have to chain fetch requests!)
+6. What's the name of the founder of House Stark? (You have to chain fetch requests!)
 
 URL: `http://www.anapioficeandfire.com/api/houses/362`
 
-8. What are the titles of Catelyn Stark's three POV books? (Look into `Promise.all` to request these simultaniously)
+7. What are the titles of Catelyn Stark's three POV books? (Look into `Promise.all` to request these simultaniously)
 
 URL: `http://www.anapioficeandfire.com/api/characters/232`
