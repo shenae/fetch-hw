@@ -1,8 +1,14 @@
-# JSON Practice!!!
+# JSON Practice
 
 ![clap](./assets/clap.gif)
 
-We'll be using Postman to solve the following problems, using the [Game of Thrones](https://anapioficeandfire.com/) API.
+We'll be using [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch), using the [Game of Thrones](https://anapioficeandfire.com/) API.
+
+Other guides to using Fetch:
+
+- [Google Developers Guide](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
+- [CSS Tricks](https://css-tricks.com/using-fetch/)
+- [Scotch.io](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
 
 ## Example question & answer
 
@@ -64,43 +70,34 @@ We'll be using Postman to solve the following problems, using the [Game of Thron
 
 - Accessed: `response.born` (this is how you'd access the property I'm asking for).
 
-### Woah! Where did `response` come from?
+## Here's the part you have to do
 
-It's convention for the JSON response object to be referred to as `response` or `res` in your code. We'll talk some more about this tomorrow. For now, let's just say that the response you get in Postman is a big object named `response`. 
-
-## Here's the part you have to do!
+Answer using fetch in `script.js`.
 
 1. Where was Margaery Tyrell born?
 
-- URL: `http://anapioficeandfire.com/api/characters/16`
-- Accessed: `your answer here`
+URL: `http://anapioficeandfire.com/api/characters/16`
 
-2. What region is House Targaryen in?
+1. What region is House Targaryen in?
 
-- URL: `http://www.anapioficeandfire.com/api/houses/378`
-- Accessed: `your answer here`
+URL: `http://www.anapioficeandfire.com/api/houses/378`
 
 3. What's the coat of arms of House Lannister?
 
-- URL: `http://www.anapioficeandfire.com/api/houses/229`
-- Accessed: `Your answer here`
+URL: `http://www.anapioficeandfire.com/api/houses/229`
 
 4. What is the second seat of House Baratheon?
 
-- URL: `http://www.anapioficeandfire.com/api/houses/17`
-- Accessed: `Your answer here`
+URL: `http://www.anapioficeandfire.com/api/houses/17`
 
 5. What is Robert Baratheon's second alias?
 
-- URL: `http://www.anapioficeandfire.com/api/characters/901`
-- Accessed: `Your answer here`
+URL: `http://www.anapioficeandfire.com/api/characters/901`
 
-6. What's the name of the founder of House Stark? (You may have to go through multiple Postman requests!)
+1. What's the name of the founder of House Stark? (You have to chain fetch requests!)
 
-- URL: `http://www.anapioficeandfire.com/api/houses/362`
-- Accessed: `your answer here`, [next step here], `final step answer here`
+URL: `http://www.anapioficeandfire.com/api/houses/362`
 
-7. What are the titles of Catelyn Stark's three POV books?
+1. What are the titles of Catelyn Stark's three POV books? (Look into `Promise.all` to request these simultaniously)
 
-- URL: `http://www.anapioficeandfire.com/api/characters/232`
-- Accessed: `your answer here` (may also have multiple parts)
+URL: `http://www.anapioficeandfire.com/api/characters/232`
