@@ -78,7 +78,7 @@ Answer using fetch in `script.js`.
 
 URL: `http://anapioficeandfire.com/api/characters/16`
 
-1. What region is House Targaryen in?
+2. What region is House Targaryen in?
 
 URL: `http://www.anapioficeandfire.com/api/houses/378`
 
@@ -94,10 +94,10 @@ URL: `http://www.anapioficeandfire.com/api/houses/17`
 
 URL: `http://www.anapioficeandfire.com/api/characters/901`
 
-1. What's the name of the founder of House Stark? (You have to chain fetch requests!)
+7. What's the name of the founder of House Stark? (You have to chain fetch requests!)
 
 URL: `http://www.anapioficeandfire.com/api/houses/362`
 
-1. What are the titles of Catelyn Stark's three POV books? (Look into `Promise.all` to request these simultaniously)
+8. What are the titles of Catelyn Stark's three POV books? (Look into `Promise.all` to request these simultaniously)
 
 URL: `http://www.anapioficeandfire.com/api/characters/232`
