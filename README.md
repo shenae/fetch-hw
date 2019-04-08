@@ -1,4 +1,4 @@
-# JSON Practice
+# Game of Fetches Homework
 
 ![clap](./assets/clap.gif)
 
@@ -9,6 +9,16 @@ Other guides to using Fetch:
 - [Google Developers Guide](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
 - [CSS Tricks](https://css-tricks.com/using-fetch/)
 - [Scotch.io](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
+
+## Setup
+1. `fork` and `clone` this repo.
+2. `cd` into your cloned directory.
+3. run `npm install` inside of your cloned directory.
+4. open `.` with your *fancy new* text editor.
+5. navigate to `script.js`.
+6. `git` working! ;)
+7. `add, commit, push` after you complete every part!
+8. Submit a `pull request` *TONIGHT at 11pm*.
 
 ## Example question & answer
 
