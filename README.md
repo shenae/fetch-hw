@@ -22,6 +22,7 @@ Other guides to using Fetch:
 7. `git` working! ;)
 8. `add, commit, push` after you complete every part!
 9. Submit a `pull request` **TONIGHT at 11pm**.
+10. [**REVIEW HOMEWORK SUBMISSION FORMAT**](https://git.generalassemb.ly/sei-nyc-jeopardy/homework)
 
 ## Example question & answer
 
