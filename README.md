@@ -11,15 +11,17 @@ Other guides to using Fetch:
 - [CSS Tricks](https://css-tricks.com/using-fetch/)
 - [Scotch.io](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
 
+
 ## Setup
-1. `fork` and `clone` this repo.
-2. `cd` into your cloned directory.
-3. run `npm install` in your terminal.
-4. open `.` with your *fancy new* text editor.
-5. navigate to `script.js`.
-6. `git` working! ;)
-7. `add, commit, push` after you complete every part!
-8. Submit a `pull request` *TONIGHT at 11pm*.
+1. `fork` this repo.
+2. `git clone` your forked repo in the terminal.
+3. `cd` into your cloned directory.
+4. run `npm install` in your terminal.
+5. open dir `.` with your *fancy new* text editor.
+6. navigate to `script.js`.
+7. `git` working! ;)
+8. `add, commit, push` after you complete every part!
+9. Submit a `pull request` *TONIGHT at 11pm*.
 
 ## Example question & answer
 
