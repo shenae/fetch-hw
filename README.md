@@ -1,5 +1,6 @@
 # Game of Fetches Homework
 
+
 ![clap](./assets/clap.gif)
 
 We'll be using [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch), using the [Game of Thrones](https://anapioficeandfire.com/) API.
@@ -80,9 +81,10 @@ Other guides to using Fetch:
 
 - Accessed: `response.born` (this is how you'd access the property I'm asking for).
 
+
 ## Here's the part you have to do
 
-Answer using fetch in `script.js`.
+Answer using the native fetch API in `script.js`.
 
 1. Where was Margaery Tyrell born?
 
