@@ -14,7 +14,7 @@ Other guides to using Fetch:
 ## Setup
 1. `fork` and `clone` this repo.
 2. `cd` into your cloned directory.
-3. run `npm install` inside of your cloned directory.
+3. run `npm install` in your terminal.
 4. open `.` with your *fancy new* text editor.
 5. navigate to `script.js`.
 6. `git` working! ;)
