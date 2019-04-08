@@ -17,11 +17,11 @@ Other guides to using Fetch:
 2. `git clone` your forked repo in the terminal.
 3. `cd` into your cloned directory.
 4. run `npm install` in your terminal.
-5. open dir `.` with your *fancy new* text editor.
+5. open dir `.` with your **fancy new** text editor.
 6. navigate to `script.js`.
 7. `git` working! ;)
 8. `add, commit, push` after you complete every part!
-9. Submit a `pull request` *TONIGHT at 11pm*.
+9. Submit a `pull request` **TONIGHT at 11pm**.
 
 ## Example question & answer
 
