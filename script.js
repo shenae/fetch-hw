@@ -19,13 +19,14 @@ function q0() {
     .catch((err) => {
       console.log(err.message);
     });
+    console.log(q0);
 }
 
 function q1() {
   // Your code here
   return fetch('http://anapioficeandfire.com/api/characters/16')
   .then((resp) => {
-    if (resp.ok) {
+    if (!resp.ok) {
       throw Error(resp.statusText);
     }
     return resp.json();
@@ -42,7 +43,7 @@ function q1() {
 function q2() {
   return fetch('http://www.anapioficeandfire.com/api/houses/378')
   .then((resp) => {
-    if (resp.ok) {
+    if (!resp.ok) {
       throw Error(resp.statusText);
     }
     return resp.json();
@@ -54,12 +55,13 @@ function q2() {
   .catch((err) => {
     console.log(err.message);
   });
+  console.log(q2);
 }
 
 function q3() {
   return fetch('http://www.anapioficeandfire.com/api/houses/229')
   .then((resp) => {
-    if (resp.ok) {
+    if (!resp.ok) {
       throw Error(resp.statusText);
     }
     return resp.json();
@@ -71,13 +73,14 @@ function q3() {
   .catch((err) => {
     console.log(err.message);
   });
+  console.log(q3);
 }
 
 // second seat 
 function q4() {
   return fetch('http://www.anapioficeandfire.com/api/houses/17')
   .then((resp) => {
-    if (resp.ok) {
+    if (!resp.ok) {
       throw Error(resp.statusText);
     }
     return resp.json();
@@ -91,10 +94,11 @@ function q4() {
   });
 }
 
+
 function q5() {
   return fetch('http://www.anapioficeandfire.com/api/characters/901')
   .then((resp) => {
-    if (resp.ok) {
+    if (!resp.ok) {
       throw Error(resp.statusText);
     }
     return resp.json();
@@ -111,40 +115,74 @@ function q5() {
 function q6() {
   return fetch('http://www.anapioficeandfire.com/api/houses/362')
   .then((resp) => {
-    if (resp.ok) {
+    if (!resp.ok) {
       throw Error(resp.statusText);
     }
     return resp.json();
   })
   .then((data) => {
     console.log(data);
-    return data;
+    let founder = data.founder;
+      return fetch(founder)
+      .then((resp) => {
+        if (!resp.ok) {
+          throw Error(resp.statusText);
+        }
+        return resp.json();
+      })
+      .then((data) => {
+        return data.name;
+      })
   })
   .catch((err) => {
     console.log(err.message);
   });
 }
-//Promise.all([promise1, promise2, promise3]).then(function(values) {
+// Promise.all([promise1, promise2, promise3]).then(function(values) {
 //  console.log(values);
+
 function q7() {
   return fetch('http://www.anapioficeandfire.com/api/characters/232')
   .then((resp) => {
-    if (resp.ok) {
+    if (!resp.ok) {
       throw Error(resp.statusText);
     }
     return resp.json();
   })
-  let p1 = data.povBooks[0];
-  let p2 = data.povBooks[1];
-  let p3 = data.povBooks[2];
-  Promise.all([p1, p2, p3]).then((data.povBooks) => {
-    console.log(data.povBooks);
-    return data.povBooks;
+  .then((data) => {
+  let p1 = fetch(data.povBooks[0])
+      .then((resp) => {
+        if (!resp.ok) {
+          throw Error(resp.statusText);
+        }
+        return resp.json()})
+      .then((data) => {
+      return data.name
+      })
+  let p2 = fetch(data.povBooks[1])
+      .then((resp) => {
+        if (!resp.ok) {
+            throw Error(resp.statusText);
+          }
+          return resp.json()})
+      .then((data) => {
+      return data.name
+      })
+  let p3 = fetch(data.povBooks[2])
+      .then((resp) => {
+        if (!resp.ok) {
+          throw Error(resp.statusText);
+        }
+        return resp.json()})
+      .then((data) => {
+      return data.name
+      })
+   return Promise.all([p1, p2, p3])
+      })
+    .catch((err) => {
+      console.log(err.message);
   })
-  .catch((err) => {
-    console.log(err.message);
-  });
-}
+};
 
 module.exports = {
   q0,
